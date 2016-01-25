@@ -1,0 +1,41 @@
+{
+  "name": "compulim-vscode-qrcode",
+  "displayName": "QR Code Generator",
+  "description": "Visual Studio Code extension to generate QR code",
+  "version": "0.0.1",
+  "publisher": "Compulim",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "icon": "icon.png",
+  "galleryBanner.color": "#0D5CAB",
+  "categories": [
+    "Other"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/compulim/vscode-qrcode.git"
+  },
+  "bugs": "https://github.com/compulim/vscode-qrcode/issues/",
+  "homepage": "https://github.com/compulim/vscode-qrcode/blob/master/README.md",
+  "activationEvents": [
+    "onCommand:qrcode.generateFromSelected"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "qrcode.generateFromSelected",
+        "title": "Generate QR Code from selected text"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vscode": "0.10.x"
+  },
+  "dependencies": {
+    "open": "0.0.5",
+    "q": "^1.4.1",
+    "qrcode-generator": "^1.0.0"
+  }
+}
