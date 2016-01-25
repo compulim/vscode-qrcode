@@ -1,7 +1,7 @@
 {
   "name": "compulim-vscode-qrcode",
   "displayName": "QR Code Generator",
-  "description": "Visual Studio Code extension for generating QR code",
+  "description": "Generates QR code from text",
   "version": "0.1.0",
   "publisher": "Compulim",
   "engines": {
