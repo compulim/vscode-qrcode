@@ -1,6 +1,6 @@
-# QR code generator for Visual Studio Code
+# Visual Studio Code extension for generating QR code
 
-Generates QR code as GIF from selected text in Visual Studio Code, with error correction level "L".
+Generates QR code as GIF from selected text in Visual Studio Code.
 
 ## Usage
 
@@ -9,5 +9,12 @@ Generates QR code as GIF from selected text in Visual Studio Code, with error co
 * Press `F1` or `Ctrl+Shift+P` for Command Palette
 * Type or find "Generate QR code from selected text"
 
-### For more information
+## Notes
+
+* Default error correction level is "L"
+
+## For more information
 * [GitHub](https://github.com/compulim/vscode-qrcode/)
+
+## Contribution
+* Please file bugs or ideas to [GitHub issues](https://github.com/compulim/vscode-qrcode/issues/)
