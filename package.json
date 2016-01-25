@@ -1,5 +1,5 @@
 {
-  "name": "compulim-vscode-qrcode",
+  "name": "vscode-qrcode",
   "displayName": "QR Code Generator",
   "description": "Generate QR code from selected text",
   "version": "0.1.0",
