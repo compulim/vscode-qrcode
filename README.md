@@ -1,20 +1,23 @@
-# Visual Studio Code extension for generating QR code
+# Generates QR code and save as transparent GIF
 
-Generates QR code as GIF from selected text in Visual Studio Code.
+Generates QR code from text and save as transparent GIF in Visual Studio Code. Works without Internet connectivity.
 
 ## Usage
 
 * Select text you want to generate QR code from
-  * If no text is selected, text from current line will be used
+  * If no text was selected, an input prompt will be presented
 * Press `F1` or `Ctrl+Shift+P` for Command Palette
-* Type or find "Generate QR code from selected text"
+* Type or find "QR code: Generate QR code from text"
 
-## Notes
+## Change log
+* 0.2.0 (2016-02-10):
+  * Previews generated QR code inside Visual Studio Code
+  * Customizable error correction level (L, M, Q, H)
+  * Updated to use new API reference, technically `vscode^0.11.x`, to align with VS Code 0.10.8 (January 2016)
 
-* Default error correction level is "L"
+## Contributions
+Love this extension? [Star](https://github.com/compulim/vscode-qrcode/stargazers) us!
 
-## For more information
-* [GitHub](https://github.com/compulim/vscode-qrcode/)
+Want to make this extension even more awesome? [Send us your wish](https://github.com/compulim/vscode-qrcode/issues/new/).
 
-## Contribution
-* Please file bugs or ideas to [GitHub issues](https://github.com/compulim/vscode-qrcode/issues/)
+Hate how it is working? [File an issue](https://github.com/compulim/vscode-qrcode/issues/new/) to us.
