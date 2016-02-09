@@ -2,7 +2,7 @@
   "name": "vscode-qrcode",
   "displayName": "QR Code Generator",
   "description": "Generates QR code and save as transparent GIF",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "Compulim",
   "engines": {
     "vscode": "^0.10.8"
