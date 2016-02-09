@@ -2,6 +2,8 @@
 
 Generates QR code from text and save as transparent GIF in Visual Studio Code. Works without Internet connectivity.
 
+![Demostration of using this extension](https://raw.githubusercontent.com/compulim/vscode-qrcode/master/demo.gif)
+
 ## Usage
 
 * Select text you want to generate QR code from
