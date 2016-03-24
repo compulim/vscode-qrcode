@@ -9,6 +9,10 @@
   },
   "icon": "icon.png",
   "galleryBanner.color": "#0D5CAB",
+  "keywords": [
+    "qr",
+    "qr code"
+  ],
   "categories": [
     "Other"
   ],
